@@ -89,3 +89,7 @@ protocolo es generar una copia propuesta (`archivo.propuesto.ext`) con el
 cambio sugerido y explicar el diff — nunca modificarlos in-place sin
 confirmación explícita. Ver [`CLAUDE.md`](CLAUDE.md) para el detalle
 completo de estas convenciones de trabajo.
+
+## Licencia
+
+Este proyecto está bajo licencia MIT — ver [`LICENSE`](LICENSE).
