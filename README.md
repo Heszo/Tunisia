@@ -21,8 +21,8 @@ dirección `Dsrc` (orientación meridional/zonal, u-face o v-face), un caudal
 `Qbar` en m³/s, y flags de si trae temperatura y salinidad. Estos valores
 viven en `croco.in` (o en `croco_runoff.nc` si se usa `PSOURCE_NCFILE`), y
 deben coincidir en orden con el archivo NetCDF cuando se usa esa opción.
-Ver [`croco_reference_guide.md`](croco_reference_guide.md) para el detalle
-recopilado sobre la física del staggered grid CROCO/ROMS.
+La física del staggered grid CROCO/ROMS relevante para `psource` se resume
+en el docstring de [`psource_grd.py`](psource_grd.py).
 
 ## Estructura del repositorio
 
@@ -57,10 +57,6 @@ nuevo.
 
 - `croco.in` / `croco.in.rst` — namelist de configuración de la corrida.
 - `run_rst.sh` — script de restart/ejecución.
-- `croco_reference_guide.md` — guía de referencia sobre `psource` y la
-  física del grid CROCO/ROMS.
-- `CROCO_BLOWUP_Y2020M02.md` — notas sobre un incidente de blow-up del
-  modelo.
 
 ### Salidas de diagnóstico versionadas
 
