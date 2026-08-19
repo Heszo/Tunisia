@@ -1,0 +1,22 @@
+# Datos de entrada del modelo (archivos grandes / binarios, no versionar)
+croco_grd.nc
+
+# Salidas de diagnóstico regenerables (figuras/mapas pesados)
+*.png
+*.pdf
+*.svg
+*.html
+
+# Documento ajeno al proyecto CROCO
+LISTADO_ASISTENCIA_ASAMBLEA.docx
+.~lock.*#
+
+# Configuración local de Claude Code (específica de esta máquina/sesión)
+.claude/settings.local.json
+
+# Archivos temporales / SO
+*.swp
+*.bak
+__pycache__/
+*.pyc
+.DS_Store
